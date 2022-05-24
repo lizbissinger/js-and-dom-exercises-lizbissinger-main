@@ -21,8 +21,13 @@ class StringFunctions {
      * @example
      * reverse('abc') // 'cba'
      */
-    reverse(input) { 
-      return input;
+    function reverseString(str){ 
+
+      var splitString = str.split("");
+      var reverseArray = splitString.reverse();
+      var joinArray = reverseArray.join("");
+
+      return joinArray;
     }
     /**
      * Returns an array of the words in a string
