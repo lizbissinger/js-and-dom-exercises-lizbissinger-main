@@ -21,7 +21,7 @@ class StringFunctions {
      * @example
      * reverse('abc') // 'cba'
      */
-    function reverseString(str){ 
+    reverseString(str){ 
 
       var splitString = str.split("");
       var reverseArray = splitString.reverse();
@@ -41,4 +41,4 @@ class StringFunctions {
     {
       input = input.split(",");
       return [input];
-    }
+    }}
